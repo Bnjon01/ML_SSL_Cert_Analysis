@@ -16,10 +16,10 @@ The preprocessing involves splitting the following SSL certificate features into
 - Subject's alternate names (Integer)
 - Subject's days of validity (Integer)
 
-A Sample of data using this format is provided in the "FullCertList.csv" file and includes an extra column contianing the classification of malicious or benign website.
+A Sample of data using this format is provided in the "FullCertList.csv" file and includes an extra column containing the classification of a malicious or benign website.
 
 ### Model
-This project contains three classifiers, Decision Tree, Random Forests, and Gradient Boosting. The project is written in Python 3 and use Pandas, Numpy, and SciKit for modules.
+This project contains three classifiers, Decision Tree, Random Forests, and Gradient Boosting. The project is written in Python 3 and uses Pandas, Numpy, and SciKit for modules.
 
 ## Usage
 The program contains three classifications, comment/uncomment each block of code as they are marked with a commented header for each classifier to be tested.
